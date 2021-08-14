@@ -82,7 +82,7 @@ function __cs_remove_cheatsheet() {
     read "answer?cs: are you sure you want to remove the '${1}' cheatsheet? [y/N]: ";
     
     if [[ "${answer:u}" == "Y" || "${answer:u}" == "YES" ]]; then
-        shred -un 10 $sheet && echo "cs: cheatsheet removed -- '${1}'";
+        rm $sheet && echo "cs: cheatsheet removed -- '${1}'";
         return 0;
     fi
     echo "cs: no cheatsheets were removed";

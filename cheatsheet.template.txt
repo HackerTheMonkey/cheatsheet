@@ -9,12 +9,17 @@
 # Comments are ignored, but only if they occupy the entire line on their own -
 #  trailing comments are not ignored.
 #
-SECTION
--------
+
+================================================================================
+SECTION 1
+================================================================================
+
 <description>                   : <command>
 <description>                   : <command>
 
-E.G. NAVIGATION
----------------
-<description>                   : <key bind>
+================================================================================
+SECTION 2
+================================================================================
+
+<description>                   : <command>
 <description>                   : <command>
